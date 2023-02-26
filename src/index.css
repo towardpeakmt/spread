@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+/*.bottom-panels {*/
+/*  display: none;*/
+/*}*/
+.fileButton {
+  background-color: white !important;
+  color: #5a616d !important;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  top: -3px !important;
+  padding: 6px 12px 6px 12px !important;
+  margin-left: 2em !important;
+  z-index: 0 !important;
+}
+
+.contentList.ribbon-navigation{
+  padding-top: 1.5rem;
+}
+
+.ribbon-navigation-container {
+  font-family: "Poppins";
+}
+
+.ribbon-navigation-item.ribbon-navigation-item-active {
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: solid 4px #2563eb !important;
+}
+
+.ribbon-navigation-item.ribbon-navigation-item-active a {
+  color: black !important;
+}
+
+.ribbon-navigation-menu {
+  font-weight: 500 !important;
+  font-size: 15px !important;
+  color: #a0aec0 !important;
+}
+.ribbon-panel-item.ribbon-panel-item-active{
+  border-left-style:none !important;
+}
+.gc-ribbon-bar .ribbon-panel-groups .ribbon-panel-group {
+  border-right: solid 1px #e5e7eb;
+  border-left: solid 1px #fafafa;
+}
+
+.gc-name-box-container{
+  border: none;
+
+}
+.gc-name-box-selector{
+  font-family: "Poppins";
+  color: #5A6E87 !important;
+}
+.gc-formulaBar .mainBar .btn-group {
+  border-top: none;
+  border-bottom: none;
+  border-right: solid 1px #e5e7eb;
+  border-left: solid 1px #e5e7eb;
+}

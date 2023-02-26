@@ -1,0 +1,88 @@
+
+
+
+.wrapper .item  .designer {
+  --tw-shadow: 0 20px 0x -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  resize: both;
+}
+
+/* .wrapper .designer .spreadWrapper {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  overflow: auto;
+  resize: both;
+} */
+
+/* .wrapper .designer:first-child  {
+  margin-top:300px;
+} */
+
+.gc-designer-container .full-panels {
+flex: none;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: white;
+z-index: 4000;
+}
+
+.wrapper .item  .designer.active .ribbon {
+  position: fixed;
+  top: 64px;
+  width: 100%;
+  background-color: #fff;
+  z-index: 3000;
+}
+
+.wrapper .item  .designer.active .top-panels {
+  position: fixed;
+  top: 234px;
+  width: 100%;
+  background-color: #fff;
+  z-index: 2500;
+}
+
+.wrapper .item  .designer .ribbon {
+  position: fixed;
+  top: 64px;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
+}
+
+.wrapper .item  .designer .top-panels {
+  position: fixed;
+  top: 234px;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
+}
+
+/* .wrapper .item:first-child .designer:first-child .spreadWrapper {
+   margin-top: 190px; 
+} */
+
+.wrapper .spreadWrapper {
+flex: auto;
+display: block;
+flex-direction: row;
+flex-wrap: wrap; 
+align-items: stretch;
+margin-top: 210px;
+}
+
+.bottom-panels {
+  display: none;
+}
+
+/* ::-webkit-resizer {
+border: 2px solid yellow;
+background: blue;
+box-shadow: 0 0 2px 5px red;
+outline: 2px dashed green;
+} */

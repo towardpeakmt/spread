@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+$formatCells-default-bg-color: #FFF;
+$formatCells-default-border-color: #E6ECF0;
+$formatCells-active-color: #325FE5;
+$formatCells-default-color: #A0AEC0;
+$formatCells-default-contentColor: #7F94A8;
+$formatCells-active-category-bg: #EFF6FF;
+$neutral-grey-alternate-800: #354866;
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.gc-sjs-designer-dialog {
+    // width: 800px;
+    // height: 670px;
+    background: $formatCells-default-bg-color;
+    box-shadow: 0px 20px 25px rgba(43, 53, 116, 0.1), 0px 10px 10px rgba(43, 53, 116, 0.04);
+    border-radius: 18px;
+    border: none;
+    .dialog-footer,
+    .dialog-content {
+        background-color: $formatCells-default-bg-color;
+        margin: 0 32px;
+        .gc-tab-control {
+            height: auto !important;
+            .tab-header {
+                background-color: $formatCells-default-bg-color;
+                height: auto;
+                .tab-header-item {
+                    height: auto;
+                    background-color: $formatCells-default-bg-color;
+                    border-top: none;
+                    border-bottom: 1px solid $formatCells-default-border-color;
+                    border-left: none;
+                    border-right: 1px solid $formatCells-default-border-color;
+                    color: $formatCells-default-color;
+                    text-transform: uppercase;
+                    padding: 8px 15px;
+                    font-weight: 500;
+                    line-height: 16px;
+                    font-size: 12px;
+                }
+                .tab-header-item:last-child {
+                    border-right: none;
+                }
+                .tab-header-item.selected {
+                    color: $formatCells-active-color;
+                    border-bottom: 1px solid $formatCells-active-color;
+                }
+            }
+            .tab-content {
+                .tab-content-item.show {
+                    div[tab_id="number"],
+                    div[tab_id="currency"],
+                    div[tab_id="accounting"],
+                    div[tab_id="date"],
+                    div[tab_id="percentage"],
+                    div[tab_id="scientific"],
+                    div[tab_id="custom"] {
+                        .gc-column-set {
+                            flex-direction: column;
+                            .number-decimal-place-label {
+                                height: auto;
+                            }
+                            .gc-spinner,
+                            .number-symbol-editor,
+                            .locale-combo {
+                                border: 1px solid $formatCells-default-border-color;
+                                border-radius: 4px;
+                                width: 170px;
+                                padding: 8px 4px;
+                                height: auto;
+                                line-height: auto;
+                                .gc-combo-editor-container {
+                                    border: none;
+                                    .dropdown-button {
+                                        border: none;
+                                    }
+                                }
+                            }
+                            .gc-spinner .gc-designer-input-group-addon {
+                                border-left: none;
+                            }
+                            .gc-spinner .gc-designer-input-group-addon i:first-child {
+                                border-bottom: none;
+                            }
+                        }
+                    }
+                    .locale-combo {
+                        border: 1px solid $formatCells-default-border-color;
+                        border-radius: 4px;
+                        width: 170px;
+                        padding: 8px 4px;
+                        height: auto;
+                        line-height: auto;
+                        .gc-combo-editor-container {
+                            border: none;
+                            .dropdown-button {
+                                border: none;
+                            }
+                        }
+                    }
+                }
+                .number-general-comment,
+                .number-text-comment {
+                    margin-top: 320px;
+                    margin-left: -151px;
+                }
+                .gc-flexcontainer {
+                    margin: 10px 0 !important;
+                }
+                .gc-flex-component.flex-default {
+                    >div:first-child {
+                        color: $formatCells-default-contentColor;
+                        font-weight: 600;
+                        font-size: 12px;
+                        line-height: 14px;
+                    }
+                    .gc-format-category {
+                        border: none;
+                        border-right: 0.5px solid #CCD6E1;
+                        .gc-list-control-item-text {
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 16px;
+                            color: $neutral-grey-alternate-800;
+                        }
+                    }
+                }
+                .gc-flex-component.flex-stretch {
+                    .gc-format-preview {
+                        margin-top: 0 !important;
+                        .gc-label-container {
+                            border: none;
+                            .text {
+                                color: $formatCells-default-contentColor;
+                                font-weight: 600;
+                                font-size: 12px;
+                                line-height: 14px;
+                            }
+                            .label {
+                                border: 1px solid $formatCells-default-border-color;
+                                border-radius: 4px;
+                                width: 170px;
+                                padding: 8px 4px;
+                                height: auto;
+                                line-height: auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .dialog-footer {
+        border-bottom-left-radius: 18px;
+        border-bottom-right-radius: 18px;
+        button:first-child {
+            background: $formatCells-active-color;
+            border-radius: 8px;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            color: $formatCells-default-bg-color;
+            padding: 8px;
+            min-width: 51px;
+            span {
+                padding: 0;
+            }
+        }
+        button:nth-child(2) {
+            border: none;
+            background: $formatCells-active-category-bg;
+            border-radius: 8px;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            color: #5A6E87;
+            padding: 8px;
+            min-width: 83px;
+            span {
+                padding: 0;
+            }
+        }
+    }
+    .dialog-titlebar {
+        border-top-left-radius: 18px;
+        border-top-right-radius: 18px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: row;
+        padding: 32px 32px 18px 32px;
+        .dialog-titlebar-close {
+            position: static;
+            height: auto;
+        }
+    }
+}
+
+.gc-list-control-item.gc-list-control-selected-item {
+    background-color: $formatCells-active-category-bg !important;
+    border-radius: 4px;
+}
+
+.number-negative-list,
+.custom-type-list-editor .list .gc-designer-list-control.gc-list-control-allSelection,
+.gc-text-editor {
+    border: 1px solid #F3F4F6;
+    border-radius: 8px;
+    .gc-designer-list-control.gc-list-control-allSelection {
+        padding: 4px;
+    }
+}
+
+.tab-content {
+    .tab-content-item.show {
+        .gc-flex-component.flex-auto:first-child {
+            width: 50%;
+            .gc-label-line {
+                border-top: none;
+                margin-bottom: 20px;
+                .text {
+                    color: $formatCells-default-contentColor;
+                    font-weight: 600;
+                    font-size: 12px;
+                    line-height: 14px;
+                }
+            }
+            .gc-column-set {
+                flex-direction: column;
+                .gc-flex-component.flex-auto:first-child {
+                    flex-direction: row;
+                    .gc-combo-editor-container {
+                        border: 1px solid $formatCells-default-border-color;
+                        border-radius: 4px;
+                        width: 140px;
+                        padding: 8px 4px;
+                        height: auto;
+                        line-height: auto;
+                        .dropdown-button {
+                            border: none;
+                        }
+                    }
+                }
+                .gc-flex-component.flex-auto:last-child {
+                    .gc-spinner {
+                        border: 1px solid $formatCells-default-border-color;
+                        border-radius: 4px;
+                        width: 170px;
+                        padding: 8px 4px;
+                        height: auto;
+                        line-height: auto;
+                        .gc-combo-editor-container {
+                            border: none;
+                            .dropdown-button {
+                                border: none;
+                            }
+                        }
+                    }
+                    .gc-spinner .gc-designer-input-group-addon {
+                        border-left: none;
+                    }
+                    .gc-spinner .gc-designer-input-group-addon i:first-child {
+                        border-bottom: none;
+                    }
+                }
+                .gc-flex-component.flex-default div {
+                    margin: 0 0 10px 0 !important;
+                }
+            }
+        }
+        .gc-flex-component.flex-auto:last-child {
+            width: 50%;
+            .gc-label-container {
+                border: none;
+                margin-bottom: 20px;
+                .text {
+                    color: $formatCells-default-contentColor;
+                    font-weight: 600;
+                    font-size: 12px;
+                    line-height: 14px;
+                }
+                .gc-orientation-editor.gc-flexcontainer {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: flex-end;
+                    .gc-column-set:first-child .gc-flex-component.flex-auto:first-child {
+                        display: none;
+                    }
+                    .gc-flex-component.flex-auto:last-child {
+                        .right-textShow.gc-container {
+                            border: none;
+                            background-color: #D9D9D9;
+                            border-top-right-radius: 10rem;
+                            border-bottom-right-radius: 10rem;
+                            .icon.selected {
+                                width: 12px;
+                                height: 12px;
+                                background: #325FE5;
+                                border-radius: 50%;
+                                top: 70px;
+                            }
+                        }
+                    }
+                    .gc-column-set:last-child {
+                        flex-direction: row-reverse;
+                        align-items: center;
+                        .degrees-label {
+                            color: $formatCells-default-contentColor;
+                            font-weight: 600;
+                            font-size: 12px;
+                            line-height: 14px;
+                            margin-top: 0;
+                            margin-bottom: 0;
+                        }
+                        .degrees-number-editor {
+                            margin-top: 0;
+                            .gc-spinner {
+                                border: 1px solid $formatCells-default-border-color;
+                                border-radius: 4px;
+                                padding: 8px 4px;
+                                height: auto;
+                                line-height: auto;
+                                .gc-combo-editor-container {
+                                    border: none;
+                                    .dropdown-button {
+                                        border: none;
+                                    }
+                                }
+                            }
+                            .gc-spinner .gc-designer-input-group-addon {
+                                border-left: none;
+                            }
+                            .gc-spinner .gc-designer-input-group-addon i:first-child {
+                                border-bottom: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.gc-sjs-designer-dialog .dialog-titlebar .dialog-titlebar-close:hover {
+    background-color: transparent !important;
+}
+
+.gc-sjs-designer-dialog .dialog-titlebar .dialog-titlebar-close:hover .dialog-titlebar-close-icon {
+    scale: 1.2;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB2aWV3Qm94PSIwIDAgMTYgMTYiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDU1LjIgKDc4MTgxKSAtIGh0dHBzOi8vc2tldGNoYXBwLmNvbSAtLT4KICAgIDx0aXRsZT5jbG9zZTwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxnIGlkPSJjbG9zZSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTTkuMTQ1MTkwODUsOC4wMDAxNTM1NyBMMTIuNzYxOTkxNCw0LjM4MjE4MTEyIEMxMy4wNzkzMzYyLDQuMDY2MDAyMzUgMTMuMDc5MzM2MiwzLjU1MzMxNjc2IDEyLjc2MTk5MTQsMy4yMzcxMzQwOCBDMTIuNDQ2NDc5NiwyLjkyMDk1NTMxIDExLjkzNDQ2MTEsMi45MjA5NTUzMSAxMS42MTc3ODQyLDMuMjM3MTM0MDggTDguMDAwMzE5Niw2Ljg1NDkzMDc0IEw0LjM4MjE4MTEyLDMuMjM3MTM0MDggQzQuMDY2MDAyMzUsMi45MjA5NTUzMSAzLjU1MzMxNjc2LDIuOTIwOTU1MzEgMy4yMzcxMzQwOCwzLjIzNzEzNDA4IEMyLjkyMDk1NTMxLDMuNTUzMzEyODUgMi45MjA5NTUzMSw0LjA2NTk5ODQ0IDMuMjM3MTM0MDgsNC4zODIxODExMiBMNi44NTUxMDY1Myw4LjAwMDE1MzU3IEwzLjIzNzEzNDA4LDExLjYxODYyNDEgQzIuOTIwOTU1MzEsMTEuOTM0OTY4OSAyLjkyMDk1NTMxLDEyLjQ0NjY1NDQgMy4yMzcxMzQwOCwxMi43NjI5OTczIEMzLjU1MzMxMjg1LDEzLjA3OTM0MjEgNC4wNjU5OTg0NCwxMy4wNzkzNDIxIDQuMzgyMTgxMTIsMTIuNzYyOTk3MyBMOC4wMDAzMTk2LDkuMTQ1MjAwNjEgTDExLjYxNzc4NDIsMTIuNzYyOTk3MyBDMTEuOTM0NDYzLDEzLjA3OTM0MjEgMTIuNDQ2NjQ4NiwxMy4wNzkzNDIxIDEyLjc2MTk5MTQsMTIuNzYyOTk3MyBDMTMuMDc5MzM2MiwxMi40NDcxNTI1IDEzLjA3OTMzNjIsMTEuOTM0OTY2OSAxMi43NjE5OTE0LDExLjYxODYyNDEgTDkuMTQ1MTkwODUsOC4wMDAxNTM1NyBMOS4xNDUxOTA4NSw4LjAwMDE1MzU3IFoiIGlkPSLot6/lvoQiIGZpbGw9IiM2NjY2NjYiIGZpbGwtcnVsZT0ibm9uemVybyI+PC9wYXRoPgogICAgPC9nPgo8L3N2Zz4=)
+}

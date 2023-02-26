@@ -1,0 +1,856 @@
+/*Home Clipboard*/
+.ribbon-button-paste {
+  background-image: url(assets/svg/home/clipboard/paste.svg);
+}
+.ribbon-button-paste.gc-list-control-item-icon {
+  background-image: url(assets/svg/home/clipboard/paste.svg);
+}
+.ribbon-button-paste-formula.gc-list-control-item-icon {
+  background-image: url(assets/svg/home/clipboard/formulas.svg);
+}
+.ribbon-button-paste-values.gc-list-control-item-icon {
+  background-image: url(assets/svg/home/clipboard/values.svg);
+}
+.ribbon-button-formatting.gc-list-control-item-icon {
+  background-image: url(assets/svg/home/clipboard/formatting.svg);
+}
+.ribbon-button-paste-value-formatting.gc-list-control-item-icon {
+  background-image: url(assets/svg/home/clipboard/values_formatting.svg);
+}
+.ribbon-button-paste-formula-formatting.gc-list-control-item-icon {
+  background-image: url(assets/svg/home/clipboard/formulas_formatting.svg);
+}
+.ribbon-button-item-icon.ribbon-button-cut {
+  background-image: url(assets/svg/home/clipboard/cut.svg);
+}
+.ribbon-button-item-icon.ribbon-button-copy {
+  background-image: url(assets/svg/home/clipboard/copy.svg);
+}
+.ribbon-button-item-icon.ribbon-button-formatPainter {
+  background-image: url(assets/svg/home/clipboard/format_painter.svg);
+}
+
+/*Undo Redo*/
+.ribbon-button-item-icon.gc-accessbar-undo {
+  background-image: url(assets/svg/home/undo/undo.svg);
+}
+.ribbon-button-item-icon.gc-accessbar-redo {
+  background-image: url(assets/svg/home/undo/redo.svg);
+}
+
+/*Fonts*/
+.ribbon-button-item-icon.ribbon-button-bold {
+  background-image: url(assets/svg/home/fonts/bold.svg);
+}
+.ribbon-button-item-icon.ribbon-button-italic {
+  background-image: url(assets/svg/home/fonts/italic.svg);
+}
+.ribbon-button-item-icon.ribbon-button-underline {
+  background-image: url(assets/svg/home/fonts/underline.svg);
+}
+.ribbon-button-item-icon.ribbon-button-double-underline {
+  background-image: url(assets/svg/home/fonts/double_underline.svg);
+}
+
+/*Fonts_borders*/
+.ribbon-button-item-icon.ribbon-control-dropdown-bottomborder {
+  background-image: url(assets/svg/home/fonts/bottom_borders.svg);
+}
+.ribbon-control-dropdown-bottomborder.gc-list-control-item-icon {
+  background-image: url(assets/svg/home/fonts/bottom_border.svg);
+}
+.ribbon-control-dropdown-topborder.gc-list-control-item-icon {
+  background-image: url(assets/svg/home/fonts/top_borders.svg);
+}
+.ribbon-control-dropdown-leftborder.gc-list-control-item-icon {
+  background-image: url(assets/svg/home/fonts/left_borders.svg);
+}
+.ribbon-control-dropdown-rightborder.gc-list-control-item-icon {
+  background-image: url(assets/svg/home/fonts/right_borders.svg);
+}
+.ribbon-control-dropdown-noborder.gc-list-control-item-icon {
+  background-image: url(assets/svg/home/fonts/no_border.svg);
+}
+.ribbon-control-dropdown-allborder.gc-list-control-item-icon {
+  background-image: url(assets/svg/home/fonts/all_borders.svg);
+}
+.ribbon-control-dropdown-outsideborder.gc-list-control-item-icon {
+  background-image: url(assets/svg/home/fonts/outer_borders.svg);
+}
+.ribbon-control-dropdown-thickboxborder.gc-list-control-item-icon {
+  background-image: url(assets/svg/home/fonts/thick_box_border.svg);
+}
+.ribbon-control-dropdown-bottomdoubleborder.gc-list-control-item-icon {
+  background-image: url(assets/svg/home/fonts/bottom_double_border.svg);
+}
+.ribbon-control-dropdown-thickbottomborder.gc-list-control-item-icon {
+  background-image: url(assets/svg/home/fonts/thick_bottom_border.svg);
+}
+.ribbon-control-dropdown-topbottomborder.gc-list-control-item-icon {
+  background-image: url(assets/svg/home/fonts/top_bottom_border.svg);
+}
+.ribbon-control-dropdown-topthickbottomborder.gc-list-control-item-icon {
+  background-image: url(assets/svg/home/fonts/top_thick_bottom_border.svg);
+}
+.ribbon-control-dropdown-topdoublebottomborder.gc-list-control-item-icon {
+  background-image: url(assets/svg/home/fonts/top_double_bottom_border.svg);
+}
+.ribbon-control-dropdown-moreborder.gc-list-control-item-icon {
+  background-image: url(assets/svg/home/fonts/more_borders.svg);
+}
+
+/*Fonts_other*/
+.ribbon-button-item-icon.ribbon-button-increaseFontSize {
+  background-image: url(assets/svg/home/fonts/increase_font_size.svg);
+}
+.ribbon-button-item-icon.ribbon-button-decreaseFontSize {
+  background-image: url(assets/svg/home/fonts/decrease_font_size.svg);
+}
+
+.gc-coloricon-combo-editor .combo-content .back-color-icon {
+  background-image: url(assets/svg/home/fonts/color.svg);
+}
+.gc-coloricon-combo-editor .combo-content .fore-color-icon {
+  background-image: url(assets/svg/home/fonts/font_color.svg);
+}
+
+/*Alignment*/
+.ribbon-thumbnail-alignment {
+  background-image: url(assets/svg/home/alignment/top_align.svg);
+}
+.ribbon-button-item-icon.ribbon-button-topalign {
+  background-image: url(assets/svg/home/alignment/top_align.svg);
+  bottom: 3px;
+  position: relative;
+}
+.ribbon-button-item-icon.ribbon-button-middlealign {
+  background-image: url(assets/svg/home/alignment/middle_align.svg);
+}
+.ribbon-button-item-icon.ribbon-button-bottomalign {
+  background-image: url(assets/svg/home/alignment/bottom_align.svg);
+  top: 3px;
+  position: relative;
+}
+.ribbon-button-item-icon.ribbon-button-leftalign {
+  background-image: url(assets/svg/home/alignment/left_align.svg);
+}
+.ribbon-button-item-icon.ribbon-button-centeralign {
+  background-image: url(assets/svg/home/alignment/center_align.svg);
+}
+.ribbon-button-item-icon.ribbon-button-rightalign {
+  background-image: url(assets/svg/home/alignment/right_align.svg);
+}
+
+/*Alignment_rotate*/
+.ribbon-button-orientation {
+  background-image: url(assets/svg/home/alignment/angle.svg) !important;
+}
+.ribbon-control-dropdown-angleCounterclockwise {
+  background-image: url(assets/svg/home/alignment/angle_couterclockwise.svg);
+}
+.ribbon-control-dropdown-angleClockwise {
+  background-image: url(assets/svg/home/alignment/angle_clockwise.svg);
+}
+.ribbon-control-dropdown-verticalText {
+  background-image: url(assets/svg/home/alignment/vertical_text.svg);
+}
+.ribbon-control-dropdown-rotateTextUp {
+  background-image: url(assets/svg/home/alignment/rotate_text_up.svg);
+}
+.ribbon-control-dropdown-rotateTextDown {
+  background-image: url(assets/svg/home/alignment/rotate_text_down.svg);
+}
+.ribbon-control-dropdown-formatCellAlignment {
+  background-image: url(assets/svg/home/alignment/format_cell_alignment.svg);
+}
+
+/*Alignment_increase*/
+.ribbon-button-decreaseindent {
+  background-image: url(assets/svg/home/alignment/decrease_indent.svg);
+}
+.ribbon-button-increaseindent {
+  background-image: url(assets/svg/home/alignment/increase_indent.svg);
+}
+
+/*Alignment_wrap_merge*/
+.ribbon-button-wraptext {
+  background-image: url(assets/svg/home/alignment/wrap_text.svg);
+}
+.ribbon-button-mergecenter {
+  background-image: url(assets/svg/home/alignment/merge_center_main.svg);
+}
+.ribbon-control-dropdown-mergecenter {
+  background-image: url(assets/svg/home/alignment/merge_center.svg);
+}
+.ribbon-control-dropdown-mergeacross {
+  background-image: url(assets/svg/home/alignment/merge_across.svg);
+}
+.ribbon-control-dropdown-mergecells {
+  background-image: url(assets/svg/home/alignment/merge_cells.svg);
+}
+.ribbon-control-dropdown-unmergecells {
+  background-image: url(assets/svg/home/alignment/unmerge.svg);
+}
+
+/*Numbers*/
+.ribbon-button-percentstyle {
+  background-image: url(assets/svg/home/numbers/percent_style.svg);
+}
+.ribbon-button-commastyle {
+  background-image: url(assets/svg/home/numbers/comma_style.svg);
+}
+.ribbon-button-increasedecimal {
+  background-image: url(assets/svg/home/numbers/increase_decimal.svg);
+}
+.ribbon-button-decreasedecimal {
+  background-image: url(assets/svg/home/numbers/decrease_decimal.svg);
+}
+
+/*Styles*/
+.ribbon-thumbnail-styles {
+  background-image: url(assets/svg/home/styles/format_table.svg);
+}
+
+/*Styles_conditional_format*/
+.ribbon-button-conditionalformat {
+  background-image: url(assets/svg/home/styles/conditional_format.svg);
+}
+.ribbon-control-dropdown-highlight-cells-rules {
+  background-image: url(assets/svg/home/styles/highlight_cells_rules.svg);
+}
+.ribbon-control-dropdown-greater-than {
+  background-image: url(assets/svg/home/styles/greater_then.svg);
+}
+.ribbon-control-dropdown-less-than {
+  background-image: url(assets/svg/home/styles/less_then.svg);
+}
+.ribbon-control-dropdown-between {
+  background-image: url(assets/svg/home/styles/between.svg);
+}
+.ribbon-control-dropdown-equal-to {
+  background-image: url(assets/svg/home/styles/equal_to.svg);
+}
+.ribbon-control-dropdown-text-that-contains {
+  background-image: url(assets/svg/home/styles/text_that_contains.svg);
+}
+.ribbon-control-dropdown-a-date-occurring {
+  background-image: url(assets/svg/home/styles/a_date_occuring.svg);
+}
+.ribbon-control-dropdown-duplicate-values {
+  background-image: url(assets/svg/home/styles/duplicate_values.svg);
+}
+.ribbon-control-dropdown-top-bottom-rules {
+  background-image: url(assets/svg/home/styles/top_bottom_rules.svg);
+}
+.ribbon-control-dropdown-top-10-items {
+  background-image: url(assets/svg/home/styles/top_ten_items.svg);
+}
+.ribbon-control-dropdown-bottom-10-items {
+  background-image: url(assets/svg/home/styles/bottom_ten_items.svg);
+}
+.ribbon-control-dropdown-above-average {
+  background-image: url(assets/svg/home/styles/above_average.svg);
+}
+.ribbon-control-dropdown-below-average {
+  background-image: url(assets/svg/home/styles/below_average.svg);
+}
+.ribbon-control-dropdown-data-bars {
+  background-image: url(assets/svg/home/styles/data_bars.svg);
+}
+.ribbon-control-dropdown-color-scales {
+  background-image: url(assets/svg/home/styles/color_scales.svg);
+}
+.ribbon-control-dropdown-icon-sets {
+  background-image: url(assets/svg/home/styles/icon_sets.svg);
+}
+.ribbon-control-dropdown-new-rule {
+  background-image: url(assets/svg/home/styles/new_rule.svg);
+}
+.ribbon-control-dropdown-clear-rules {
+  background-image: url(assets/svg/home/styles/clear.svg);
+}
+.ribbon-control-dropdown-manage-rules {
+  background-image: url(assets/svg/home/styles/manage_rules.svg);
+}
+
+/*Styles_format_table*/
+.ribbon-button-formattable {
+  background-image: url(assets/svg/home/styles/format_table.svg);
+}
+.gc-ribbon-bar .ribbon-panel .ribbon-panel-item {
+  border-left: none;
+}
+
+/*Styles_cell_styles*/
+.gc-ribbon-bar .ribbon-button-cellstyles {
+  background-image: url(assets/svg/home/styles/cell_styles.svg);
+}
+.ribbon-button-colprpicker-dropdown {
+  background-image: url(assets/svg/home/styles/color_picker.svg);
+}
+.ribbon-button-datetimepicker-dropdown {
+  background-image: url(assets/svg/home/styles/data_time_picker.svg);
+}
+.ribbon-button-timepicker-dropdown {
+  background-image: url(assets/svg/home/styles/time_picker.svg);
+}
+.ribbon-button-calcualtor-dropdown {
+  background-image: url(assets/svg/home/styles/calculator.svg);
+}
+.ribbon-button-monthpicker-dropdown {
+  background-image: url(assets/svg/home/styles/month.svg);
+}
+.ribbon-button-slider-dropdown {
+  background-image: url(assets/svg/home/styles/slider.svg);
+}
+.gc-cell-style-celltype .ribbon-button-okcancel-dropdown {
+  background-image: url(assets/svg/home/styles/ok_cancel.svg);
+}
+.gc-cell-style-celltype .ribbon-button-clear-dropdown {
+  background-image: url(assets/svg/home/styles/clear.svg);
+}
+.gc-ribbon-button-new-cell-style-element {
+  background-image: url(assets/svg/home/styles/new_cell_styles.svg);
+}
+.ribbon-button-manage-cellstates {
+  background-image: url(assets/svg/home/styles/cell_styles.svg);
+}
+
+/*Styles_cell_editors_type*/
+.ribbon-button-celltype {
+  background-image: url(assets/svg/home/styles/cell_type.svg);
+}
+.ribbon-button-buttoncelltype {
+  background-image: url(assets/svg/home/styles/cell_type.svg);
+}
+.ribbon-button-checkboxcelltype {
+  background-image: url(assets/svg/home/styles/checkbox.svg);
+}
+.ribbon-button-comboboxcelltype {
+  background-image: url(assets/svg/home/styles/combobox.svg);
+}
+.ribbon-button-hyperlinkcelltype {
+  background-image: url(assets/svg/home/styles/hyperLink.svg);
+}
+.ribbon-button-rangetemplatecelltype {
+  background-image: url(assets/svg/home/styles/range_template.svg);
+}
+.ribbon-button-checkboxlistcelltype {
+  background-image: url(assets/svg/home/styles/checkbox_list.svg);
+}
+.ribbon-button-radiolistcelltype {
+  background-image: url(assets/svg/home/styles/radio_list.svg);
+}
+.ribbon-button-buttonlistcelltype {
+  background-image: url(assets/svg/home/styles/button_list.svg);
+}
+.ribbon-button-clear-celltype {
+  background-image: url(assets/svg/home/styles/clear_cell.svg);
+}
+
+/*Styles_cell_editors_dropdowns*/
+.ribbon-button-celldropdown {
+  background-image: url(assets/svg/home/styles/cell_dropdown.svg);
+}
+.ribbon-button-list-dropdown {
+  background-image: url(assets/svg/home/styles/list.svg);
+}
+.ribbon-button-workflow-dropdown {
+  background-image: url(assets/svg/home/styles/workflow.svg);
+}
+.ribbon-button-multiColumn-dropdown {
+  background-image: url(assets/svg/home/styles/multicolumn.svg);
+}
+
+/*Styles_Cells*/
+.ribbon-thumbnail-cells {
+  background-image: url(assets/svg/home/cells/format.svg);
+}
+
+/*Styles_Cells_insert*/
+.ribbon-button-insert {
+  background-image: url(assets/svg/home/cells/format.svg);
+}
+.ribbon-control-dropdown-insertcells {
+  background-image: url(assets/svg/home/cells/insert_cells.svg);
+}
+.ribbon-control-dropdown-insertsheetrows {
+  background-image: url(assets/svg/home/cells/insert_sheet_rows.svg);
+}
+.ribbon-control-dropdown-insertsheetcolumns {
+  background-image: url(assets/svg/home/cells/insert_sheet_columns.svg);
+}
+.ribbon-control-dropdown-insertSheet {
+  background-image: url(assets/svg/home/cells/insert_sheet.svg);
+}
+
+/*Styles_Cells_delete*/
+.ribbon-button-delete {
+  background-image: url(assets/svg/home/cells/delete.svg);
+}
+.ribbon-control-dropdown-deletecells {
+  background-image: url(assets/svg/home/cells/delete_cells.svg);
+}
+.ribbon-control-dropdown-deletesheetrows {
+  background-image: url(assets/svg/home/cells/delete_sheet_rows.svg);
+}
+.ribbon-control-dropdown-deletesheetcolumns {
+  background-image: url(assets/svg/home/cells/delete_sheet_columns.svg);
+}
+.ribbon-control-dropdown-deletesheet {
+  background-image: url(assets/svg/home/cells/delete_sheet.svg);
+}
+
+/*Styles_Cells_format*/
+.ribbon-button-format {
+  background-image: url(assets/svg/home/cells/format.svg);
+}
+.ribbon-control-dropdown-rowheight {
+  background-image: url(assets/svg/home/cells/row_height.svg);
+}
+.ribbon-control-dropdown-columnwidth {
+  background-image: url(assets/svg/home/cells/column_width.svg);
+}
+.ribbon-control-dropdown-protectsheet {
+  background-image: url(assets/svg/home/cells/protect_sheet.svg);
+}
+.ribbon-control-dropdown-unlockcells {
+  background-image: url(assets/svg/home/cells/unlock_cells.svg);
+}
+
+/*Styles_Editing*/
+.ribbon-thumbnail-editing {
+  background-image: url(assets/svg/home/editing/fill_main.svg);
+}
+.ribbon-button-autosum {
+  background-image: url(assets/svg/home/editing/sum.svg);
+}
+.ribbon-button-filldown {
+  background-image: url(assets/svg/home/editing/fill_down.svg);
+}
+.ribbon-control-dropdown-filldown {
+  background-image: url(assets/svg/home/editing/fill_down.svg);
+}
+.ribbon-control-dropdown-fillright {
+  background-image: url(assets/svg/home/editing/fill_right.svg);
+}
+.ribbon-control-dropdown-fillup {
+  background-image: url(assets/svg/home/editing/fill_up.svg);
+}
+.ribbon-control-dropdown-fillleft {
+  background-image: url(assets/svg/home/editing/fill_left.svg);
+}
+.ribbon-button-clearall {
+  background-image: url(assets/svg/home/editing/clear_all.svg);
+}
+.ribbon-control-dropdown-clearall {
+  background-image: url(assets/svg/home/editing/clear_all.svg);
+}
+.ribbon-control-dropdown-clearformat {
+  background-image: url(assets/svg/home/editing/clear_format.svg);
+}
+
+/*Styles_Editing_sort*/
+.ribbon-button-sortfilter {
+  background-image: url(assets/svg/home/editing/sort_filter.svg);
+}
+.ribbon-control-dropdown-sortAZ {
+  background-image: url(assets/svg/home/editing/sort_az.svg);
+}
+.ribbon-control-dropdown-sortZA {
+  background-image: url(assets/svg/home/editing/sort_za.svg);
+}
+.ribbon-control-dropdown-customsort {
+  background-image: url(assets/svg/home/editing/custom_sort.svg);
+}
+.ribbon-control-dropdown-filter {
+  background-image: url(assets/svg/home/editing/filter.svg);
+}
+.ribbon-control-dropdown-clearfilter {
+  background-image: url(assets/svg/home/editing/clear_filter.svg);
+}
+.ribbon-control-dropdown-reapply {
+  background-image: url(assets/svg/home/editing/reapply.svg);
+}
+
+/*Styles_Editing_find*/
+.ribbon-button-find {
+  background-image: url(assets/svg/home/editing/find_main.svg);
+}
+.ribbon-control-dropdown-find {
+  background-image: url(assets/svg/home/editing/find.svg);
+}
+.ribbon-control-dropdown-goto {
+  background-image: url(assets/svg/home/editing/go_to.svg);
+}
+
+/* Insert */
+
+.ribbon-button-table {
+  background-image: url("@/assets/svg/insert/tables/table.svg");
+}
+
+.ribbon-button-hyperlink {
+  background-image: url("@/assets/svg/insert/hyperlink/hyper_link.svg");
+}
+
+.ribbon-button-chart {
+  background-image: url("@/assets/svg/insert/charts/charts.svg");
+}
+
+.ribbon-button-barcode {
+  background-image: url("@/assets/svg/insert/charts/barcode.svg");
+}
+
+.ribbon-insert-sparkline-gallery {
+  background-image: url("@/assets/svg/insert/charts/sparklines.svg");
+}
+
+.ribbon-button-picture {
+  background-image: url("@/assets/svg/insert/illustrations/picture.svg");
+}
+
+.ribbon-button-shapes {
+  background-image: url("@/assets/svg/insert/illustrations/shapes.svg");
+}
+
+.ribbon-button-camera-shape {
+  background-image: url("@/assets/svg/insert/illustrations/camera.svg");
+}
+
+.ribbon-button-formControl {
+  background-image: url("@/assets/svg/insert/illustrations/list_box.svg");
+}
+
+.insert-form-control-item-button {
+  background-image: url("@/assets/svg/insert/illustrations/controls/button.svg");
+}
+
+.insert-form-control-item-combobox {
+  background-image: url("@/assets/svg/insert/illustrations/controls/combobox.svg");
+}
+
+.insert-form-control-item-checkbox {
+  background-image: url("@/assets/svg/insert/illustrations/controls/checkbox.svg");
+}
+
+.insert-form-control-item-spinbutton {
+  background-image: url("@/assets/svg/insert/illustrations/controls/spin_button.svg");
+}
+
+.insert-form-control-item-listbox {
+  background-image: url("@/assets/svg/insert/illustrations/controls/list_box.svg");
+}
+
+.insert-form-control-item-optionbutton {
+  background-image: url("@/assets/svg/insert/illustrations/controls/option_box.svg");
+}
+
+.insert-form-control-item-groupbox {
+  background-image: url("@/assets/svg/insert/illustrations/controls/group_box.svg");
+}
+
+.insert-form-control-item-label {
+  background-image: url("@/assets/svg/insert/illustrations/controls/label.svg");
+}
+
+.insert-form-control-item-scrollbar {
+  background-image: url("@/assets/svg/insert/illustrations/controls/scroll_bar.svg");
+}
+
+/* Page layout */
+
+.ribbon-button-margins {
+  background-image: url("@/assets/svg/page_layout/page_setup/margins.svg");
+}
+
+.ribbon-button-page-layout-orientation {
+  background-image: url("@/assets/svg/page_layout/page_setup/orientation.svg");
+}
+
+.ribbon-control-orientation-dropdown-portrait {
+  background-image: url("@/assets/svg/page_layout/page_setup/portrait.svg");
+}
+
+.ribbon-control-orientation-dropdown-landscape {
+  background-image: url("@/assets/svg/page_layout/page_setup/landscape.svg");
+}
+
+.ribbon-button-pageSetup-size {
+  background-image: url("@/assets/svg/page_layout/page_setup/size.svg");
+}
+
+.ribbon-button-page-setup-print-area {
+  background-image: url("@/assets/svg/page_layout/page_setup/print_area.svg");
+}
+
+.ribbon-control-print-area-dropdown-set {
+  background-image: url("@/assets/svg/page_layout/page_setup/print_area.svg");
+}
+
+.ribbon-button-breaks {
+  background-image: url("@/assets/svg/page_layout/page_setup/breaks.svg");
+}
+
+.ribbon-button-page-setup-background {
+  background-image: url("@/assets/svg/page_layout/page_setup/background.svg");
+}
+
+.ribbon-button-print-titles {
+  background-image: url("@/assets/svg/page_layout/page_setup/print_titles.svg");
+}
+
+.ribbon-button-scale-to-fit-page-width-text {
+  background-image: url("@/assets/svg/page_layout/scale_to_fit/width.svg");
+}
+
+.ribbon-button-scale-to-fit-page-height-text {
+  background-image: url("@/assets/svg/page_layout/scale_to_fit/height.svg");
+}
+
+.ribbon-button-scale-to-fit-scale-text {
+  background-image: url("@/assets/svg/page_layout/scale_to_fit/scale.svg");
+}
+
+/* Functions tab */
+
+.ribbon-button-insertfunction {
+  background-image: url("@/assets/svg/formulas/functions/insert_function.svg");
+}
+
+.ribbon-button-autosumfunction {
+  background-image: url("@/assets/svg/formulas/functions_library/avto_sum.svg");
+}
+
+.ribbon-button-autosum {
+  background-image: url("@/assets/svg/formulas/functions_library/home/еditing/sum.svg");
+}
+
+.ribbon-button-financialfunction {
+  background-image: url("@/assets/svg/formulas/functions_library/financial.svg");
+}
+
+.ribbon-button-logicalfunction {
+  background-image: url("@/assets/svg/formulas/functions_library/logical.svg");
+}
+
+.ribbon-button-textfunction {
+  background-image: url("@/assets/svg/formulas/functions_library/logical.svg");
+}
+
+.ribbon-button-datetimefunction {
+  background-image: url("@/assets/svg/formulas/functions_library/date_time.svg");
+}
+
+.ribbon-button-lookupreferencefunction {
+  background-image: url("@/assets/svg/formulas/functions_library/lokup_referens.svg");
+}
+
+.ribbon-button-mathtrigfunction {
+  background-image: url("@/assets/svg/formulas/functions_library/math_trig.svg");
+}
+
+.ribbon-button-morefunction {
+  background-image: url("@/assets/svg/formulas/functions_library/more_functions.svg");
+}
+
+.ribbon-button-dropdown-statistical {
+  background-image: url("@/assets/svg/formulas/functions_library/more_functions/statistical.svg");
+}
+
+.ribbon-button-dropdown-engineering {
+  background-image: url("@/assets/svg/formulas/functions_library/more_functions/engeneering.svg");
+}
+
+.ribbon-button-dropdown-information {
+  background-image: url("@/assets/svg/formulas/functions_library/more_functions/information.svg");
+}
+
+.ribbon-button-dropdown-database {
+  background-image: url("@/assets/svg/formulas/functions_library/more_functions/database.svg");
+}
+
+.ribbon-button-dropdown-web {
+  background-image: url("@/assets/svg/formulas/functions_library/more_functions/web.svg");
+}
+
+.ribbon-button-namemanager {
+  background-image: url("@/assets/svg/formulas/names/name_manager.svg");
+}
+
+.ribbon-show-formulas {
+  background-image: url("@/assets/svg/formulas/formula_auditing/show_formulas.svg");
+}
+
+/* Data tab */
+
+.ribbon-button-template {
+  background-image: url("@/assets/svg/data/functions/sheet_binding.svg");
+}
+
+.ribbon-button-loadschema {
+  background-image: url("@/assets/svg/data/functions/load_schema.svg");
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.ribbon-button-saveschema {
+  background-image: url("@/assets/svg/data/functions/save_schema.svg");
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.ribbon-button-clearbindingpath {
+  background-image: url("@/assets/svg/data/functions/clear_binding_path.svg");
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.ribbon-button-editLinks {
+  background-image: url("@/assets/svg/data/queries_connections/edit_links.svg");
+}
+
+.ribbon-button-sortAZ {
+  background-image: url("@/assets/svg/data/sort_filter/sort_A_to_Z.svg");
+}
+
+.ribbon-button-sortZA {
+  background-image: url("@/assets/svg/data/sort_filter/sort_Z_to_A.svg");
+}
+
+.ribbon-button-sort {
+  background-image: url("@/assets/svg/data/sort_filter/sort_filter_main.svg");
+}
+
+.ribbon-button-filter {
+  background-image: url("@/assets/svg/data/sort_filter/filter.svg");
+}
+
+.ribbon-button-clearfilter {
+  background-image: url("@/assets/svg/data/sort_filter/clear_filter.svg");
+}
+
+.ribbon-button-reapplyfilter {
+  background-image: url("@/assets/svg/data/sort_filter/reapply.svg");
+}
+
+.ribbon-button-textToColumn {
+  background-image: url("@/assets/svg/data/data_tools/text_to_columns.svg");
+}
+
+.ribbon-button-datavalidation {
+  background-image: url("@/assets/svg/data/data_tools/data_validation.svg");
+  background-size: 70px !important;
+  background-position: -16px -18px !important;
+}
+
+.gc-ribbon-control-dropdown-datavalidationsmall {
+  background-image: url("@/assets/svg/data/data_tools/data_validation.svg");
+  background-size: 170% !important;
+  background-position: -5px -7px;
+}
+
+.ribbon-button-remove-duplicates {
+  background-image: url("@/assets/svg/data/data_tools/remove_duplicates.svg");
+}
+
+.ribbon-button-datagroup {
+  background-image: url("@/assets/svg/data/outline/group.svg");
+}
+
+.ribbon-button-innerGroup {
+  background-image: url("@/assets/svg/data/outline/group.svg");
+}
+
+.ribbon-button-dataungroup {
+  background-image: url("@/assets/svg/data/outline/ungroup.svg");
+}
+
+.ribbon-button-innerUngroup {
+  background-image: url("@/assets/svg/data/outline/ungroup.svg");
+}
+
+.ribbon-button-subtotal {
+  background-image: url("@/assets/svg/data/outline/subtotal.svg");
+}
+
+.ribbon-button-showdetail {
+  background-image: url("@/assets/svg/data/outline/show_detail.svg");
+}
+
+.ribbon-button-hidedetail {
+  background-image: url("@/assets/svg/data/outline/hide_detail.svg");
+}
+
+/* View tab */
+
+.ribbon-button-zoom {
+  background-image: url("@/assets/svg/view/zoom/zoom_in.svg");
+}
+
+.ribbon-button-zoomdefault {
+  background-image: url("@/assets/svg/view/zoom/editing.svg");
+}
+
+.ribbon-button-zoomtoselection {
+  background-image: url("@/assets/svg/view/zoom/editing_1.svg");
+}
+
+.ribbon-button-freezepane {
+  background-image: url("@/assets/svg/view/viewport/freeze_panes.svg");
+}
+
+.ribbon-button-unfreezepane {
+  background-image: url("@/assets/svg/view/viewport/unfreeze_panes.svg");
+}
+
+.gc-designer-selection-pane-ribbon {
+  background-image: url("@/assets/svg/view/pane/selection_pane.svg");
+}
+
+/* Settings tab */
+
+.ribbon-button-spreadgeneral {
+  background-image: url("@/assets/svg/settings/spread_settings/editing_2.svg");
+}
+
+.ribbon-button-scrollbars {
+  background-image: url("@/assets/svg/settings/spread_settings/editing.svg");
+  width: 10px !important;
+  height: 10px !important;
+}
+
+.ribbon-button-calculation {
+  background-image: url("@/assets/svg/settings/spread_settings/calculator.svg");
+  width: 10px !important;
+  height: 10px !important;
+}
+
+.ribbon-button-tabstrip {
+  background-image: url("@/assets/svg/settings/spread_settings/editing_1.svg");
+  width: 10px !important;
+  height: 10px !important;
+}
+
+.ribbon-button-sheetgeneral {
+  background-image: url("@/assets/svg/settings/sheet_settings/general.svg");
+}
+
+.ribbon-button-greedlines {
+  background-image: url("@/assets/svg/settings/sheet_settings/grid_lines.svg");
+}
+
+.ribbon-button-headers {
+  background-image: url("@/assets/svg/settings/sheet_settings/headers.svg");
+}
+
+/*Formula Bar*/
+.gc-formulaBar .mainBar .btn-group .functions-btn {
+  background-image: url("@/assets/svg/formulas/formula_bar/functions_btn.svg");
+}
+.gc-formulaBar .mainBar .btn-group .cancel-btn {
+  background-image: url("@/assets/svg/formulas/formula_bar/cancel.svg");
+}
+.gc-formulaBar .mainBar .btn-group .ok-btn {
+  background-image: url("@/assets/svg/formulas/formula_bar/ok.svg");
+}

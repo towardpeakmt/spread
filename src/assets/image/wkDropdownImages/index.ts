@@ -1,0 +1,12 @@
+export { default as dumpling } from "./dumpling.png";
+export { default as emodji } from "./emodji.png";
+export { default as girl } from "./girl.png";
+export { default as grass } from "./grass.png";
+export { default as heart } from "./heart.png";
+export { default as moon } from "./moon.png";
+export { default as mountain } from "./mountain.png";
+export { default as nut } from "./nut.png";
+export { default as panda } from "./panda.png";
+export { default as rose } from "./rose.png";
+export { default as shawerma } from "./shawerma.png";
+export { default as tree } from "./tree.png";
